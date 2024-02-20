@@ -1,5 +1,5 @@
 import streamlit as st
-from translator import *
+from web4/translator import *
 
 
 st.set_page_config(page_title="files_translator",page_icon="📁",layout="centered")
