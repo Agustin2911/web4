@@ -5,7 +5,7 @@ from translator import *
 st.set_page_config(page_title="files_translator",page_icon="📁",layout="centered")
 #st.image("images/file.png",use_column_width=True,width=400)
 st.title("File Translator")
-uploaded_file = st.file_uploader("Selecciona un archivo", type=["pdf", "ppt", "pptx","docx"])
+uploaded_file = st.file_uploader("Select a file", type=["pdf", "ppt", "pptx","docx"])
 opciones = {"español":"es", "english": "en","português":"pt","Deutsch":"de","uارد":"ur","italiano":"it","Français":"fr","日本語":"ja","chinese":"zh-CN","chezch":"cs","korean":"ko"}
 opcion_seleccionada = st.selectbox("Selected de language:", list(opciones.keys()))
 valor=opciones[opcion_seleccionada]
