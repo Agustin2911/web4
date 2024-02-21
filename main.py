@@ -26,6 +26,7 @@ if st.button("traslate"):
                         temp_file.write(uploaded_file.read())
                 pdf_word(temp_file_path,archivo_medio)
                 read_docx2(archivo_medio,archivo_medio2,valor)
+                print("llegue")
                 docx_pdf(archivo_medio2,archivo_terminado)
                 name=archivo_terminado+".pdf"
                 #fix
